@@ -1,0 +1,128 @@
+# Build outputs
+build/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+lts_shield
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+/opt/lts/logs/
+
+# Configuration (except templates)
+*.conf
+!*.conf.template
+config/production/
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+tmp/
+temp/
+
+# Security sensitive files
+*.key
+*.pem
+*.crt
+*.p12
+*.pfx
+private/
+secrets/
+
+# Model files (large binaries)
+*.model
+*.weights
+*.ckpt
+models/trained/
+
+# Dataset files
+datasets/
+*.csv
+*.json
+!test/*.json
+
+# Documentation build
+docs/_build/
+docs/.doctrees/
+*.pdf
+
+# Python (for tools/scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.Python
+
+# Node.js (for web dashboard)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Test coverage
+coverage/
+*.gcov
+*.gcda
+*.gcno
+htmlcov/
+
+# Deployment
+docker/volumes/
+kubernetes/secrets/
+deployment/production/
+
+# OS generated
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
+
+# Backup files
+*.bak
+*.backup
+backup/
+
+# FPGA/Hardware
+*.bit
+*.bin
+*.svf
+*.jed
+work/
+simulation/
+
+# CUDA
+*.cubin
+*.fatbin
+*.ptx
+
+# Custom ignore
+.env
+.env.local
+.env.production
+TODO.private
+NOTES.private
